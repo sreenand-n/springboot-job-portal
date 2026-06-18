@@ -35,16 +35,19 @@ A simple Job Portal Web Application built using Spring Boot, Spring MVC, JSP, JS
 
 ## Project Structure
 
+## Project Structure
+
+```text
 src/main/java
-├── com/example/JobApp
-│   ├── model
-│   │   └── JobPost.java
-│   ├── repo
-│   │   └── JobRepo.java
-│   ├── service
-│   │   └── JobService.java
-│   ├── JobController.java
-│   └── JobAppApplication.java
+└── com/example/JobApp
+    ├── model
+    │   └── JobPost.java
+    ├── repo
+    │   └── JobRepo.java
+    ├── service
+    │   └── JobService.java
+    ├── JobController.java
+    └── JobAppApplication.java
 
 src/main/resources
 ├── META-INF/resources
@@ -58,6 +61,7 @@ src/main/resources
 └── application.properties
 
 pom.xml
+```
 
 ## Application Flow
 
